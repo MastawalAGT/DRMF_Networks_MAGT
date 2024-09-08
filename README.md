@@ -6,4 +6,6 @@ Entropy_Metrics.py is a file containg python analysis code used in EntropyMetric
 
 EntropyMetrics.ipynb can, from raw data in the oit-rs golubs drive on the Daniels lab ENO computer, execute analysis and make graphs. It also exports the data Jsons degree_entropy_examples, edge_entropy_examples, and resistance_entropy_lloyds_trends. These data sets are used by graphing_script.ipynb to produce the graphs for the paper. 
 
-degree_entropy_examples contains the average degree entropy per lloyds itteration for the graphs and the std of the average for use in graphing, edge_entropy_examples is the same thing but for degree entropy 
+resistance_entropy_lloyds trends contains the average degree and entropy and average resistance per lloyds itteration for the networks and the std of the averages for network ensembles of N = 100, 200, 300 for use in graphing. 
+
+degree_entropy_examples contains the degrees and edge weights of network ensemble PC10041 at lloyds itteration 0, 10, and 101 for use in graphing its edge and node distrobution at these different lloyds itterations.
